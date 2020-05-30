@@ -63,23 +63,12 @@ p {
 }
 /* End Hero Style */
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* Start Content Style */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
-
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -134,6 +123,17 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* End Content Style */
 
 /* Start Benefits Style */
 .benefits {
@@ -196,6 +196,7 @@ p {
 }
 /* End Benefits Style */
 
+/* Start Footer Style */
 .footer {
     padding: 30px;
     clear: both;
@@ -206,3 +207,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/* End Footer Style */
