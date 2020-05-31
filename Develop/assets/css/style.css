@@ -8,7 +8,7 @@ BENEFITS: List of Benefits, Benefit Icons, Benefit Descriptions
 FOOTER: Copyright
 ****/
 
-
+/* Start Apply These Styles to Entire Page */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -22,6 +22,7 @@ body {
 p {
     font-size: 16px;
 }
+/* End Apply These Styles to Entire Page */
 
 /* Start Header Style */
 #header {
@@ -31,15 +32,18 @@ p {
     color: #ffffff;
 }
 
+/* Apply These Styles to the Heading in the Header */
 #header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Apply This Color to the "SEO" Portion of the Header */
 #header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Apply These Styles to the Group of Links in the Header */
 #header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -48,15 +52,18 @@ p {
     font-size: 20px;
 }
 
+/* Apply This Style to the Unordered List in the Header */
 #header nav ul {
     list-style-type: none;
 }
 
+/* Apply These Styles to Each of the Listed Elements in the Header */
 #header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Apply these Styles to the Links in the Header */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -64,6 +71,7 @@ a {
 /* End Header Style */
 
 /* Start Hero Style */
+/* Add Background Image of Hero and Style it */
 .hero {
     height: 800px;
     width: 100%;
@@ -81,6 +89,7 @@ a {
     margin-left: 20px;
 }
 
+/* Add These Styles to Each Box of Content */
 .content-element {
     margin-bottom: 20px;
     padding: 50px;
@@ -90,20 +99,24 @@ a {
     color: #ffffff;
 }
 
+/* Size Each Content Image */
 .content-element img {
     max-height: 200px;
 }
 
+/* Size and Position Each Content Heading */
 .content-element h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Move Two Images to the Left of Respective Content Divs */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Move One Image to the Left of Respective Content Divs */
 .float-right {
     float: right;
     margin-left: 25px;
@@ -122,16 +135,19 @@ a {
     background-color: #2589bd;
 }
 
+/* Add Vertical Space Between All Groups of Benefit Icons and Descriptions */
 .benefit-element {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Add Vertical Space between Benefit Title and Benefit Icon */
 .benefit-element h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Style the Size and Positioning of Each Benefit Icon */
 .benefit-element img {
     display: block;
     margin: 10px auto;
@@ -147,6 +163,7 @@ a {
     text-align: center;
 }
 
+/* Size the Heading in the Footer */
 .footer h2 {
     font-size: 20px;
 }
